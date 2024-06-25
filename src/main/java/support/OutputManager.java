@@ -37,7 +37,7 @@ public class OutputManager {
   }
 
   public void printOutputStackIsEmpty(boolean isEmpty) {
-    System.out.println(OUTPUT_STACK_IS_EMPTY);
+    System.out.println(OUTPUT_STACK_IS_EMPTY+isEmpty);
   }
 
   public <T> void printBooks(Collection<Book<T>> books) {

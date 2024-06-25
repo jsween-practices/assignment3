@@ -33,7 +33,7 @@ public class IntegerBookController {
     outputManager.printBooks(integerBookStack);
   }
 
-  public boolean printIsEmpty() {
-    return integerBookStack.isEmpty();
+  public void printIsEmpty() {
+    outputManager.printOutputStackIsEmpty(integerBookStack.isEmpty());
   }
 }
